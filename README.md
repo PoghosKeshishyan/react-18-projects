@@ -1,4 +1,4 @@
-# Here you can find my projects built with React.JS.
+# ⚛️ Here you can find my projects built with React.JS
 
 - **react-18-template** — [Live Demo]()
 - **react-autocomplete** — [Live Demo]()
