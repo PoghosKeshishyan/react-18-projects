@@ -3,8 +3,8 @@
 - **react-18-template** — [Live Demo](https://react18-template.vercel.app/)
 - **react-autocomplete** — [Live Demo](https://react-autocomplete-xi.vercel.app/)
 - **react-booking-search** — [Live Demo](https://react-booking-search.vercel.app/)
-- **react-crud** — _Live Demo unavailable_
-- **react-music-playere** — _Live Demo unavailable_
+- **react-crud**
+- **react-music-playere**
 - **react-pool** — [Live Demo](https://react-pool.vercel.app/)
 - **react-searchParams** — [Live Demo](https://react-search-params.vercel.app/)
 - **react-shop-fakestoreapi-modal-window** — [Live Demo](https://shop-fakestoreapi-modal-window.vercel.app/)
