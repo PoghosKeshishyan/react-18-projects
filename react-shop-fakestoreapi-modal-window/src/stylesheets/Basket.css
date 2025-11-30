@@ -1,0 +1,168 @@
+.Basket {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 20;
+    overflow: auto;
+}
+
+.Basket::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.Basket::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+}
+
+.Basket::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.Basket .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+}
+
+.Basket .heading .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.Basket .heading svg {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #007bff;
+    }
+}
+
+.Basket .cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.Basket .cart img {
+    width: 70px;
+}
+
+.Basket .cart .content {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.Basket .cart .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Basket .cart .name h3 {
+    font-size: .9rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.Basket .cart .name svg {
+    width: 50px;
+    width: 50px;
+    color: #ff4d4d;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.Basket .cart .name svg:hover {
+    transform: scale(1.3);
+}
+
+.Basket .cart .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Basket .cart .quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Basket .cart .quantity svg {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+    transition: transform 0.2s ease;
+    padding: 1px;
+    background: #efeded;
+}
+
+.Basket .cart .quantity svg:hover {
+    transform: scale(1.2);
+}
+
+.Basket .cart .quantity {
+    font-weight: 500;
+    color: #333;
+}
+
+.Basket .cart .price p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.Basket .cart .price p:first-of-type {
+    font-weight: 600;
+}
+
+.Basket .cart .price p:last-of-type {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.Basket .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.Basket .total svg {
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+        color: #e74c3c;
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .Basket {
+        width: 100%;
+    }
+}

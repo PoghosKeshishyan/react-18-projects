@@ -1,0 +1,13 @@
+.ContactPage {
+    margin: 100px auto 60px;
+    padding: 10px 60px;
+}
+
+.ContactPage h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ContactPage p {
+    text-align: justify;
+}

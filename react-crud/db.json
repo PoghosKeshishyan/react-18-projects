@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Artur",
+      "age": "21",
+      "admin": false,
+      "image": "https://via.placeholder.com/200/92c952"
+    },
+    {
+      "id": 2,
+      "name": "Artak",
+      "age": 30,
+      "admin": false,
+      "image": "https://via.placeholder.com/200/92c952"
+    },
+    {
+      "id": 3,
+      "name": "Armen",
+      "age": 40,
+      "admin": false,
+      "image": "https://via.placeholder.com/200/92c952"
+    },
+    {
+      "name": "kim2",
+      "age": 18,
+      "admin": false,
+      "image": "https://via.placeholder.com/600/24f355",
+      "id": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "model": "bmw",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "model": "opel",
+      "color": "green"
+    }
+  ]
+}

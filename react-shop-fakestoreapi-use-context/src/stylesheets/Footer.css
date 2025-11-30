@@ -1,0 +1,53 @@
+footer {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    position: relative;
+    bottom: 0;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+footer .logo svg {
+    font-size: 2rem;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+footer .credit {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+footer .social-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .social-links svg {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: .3s ease;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

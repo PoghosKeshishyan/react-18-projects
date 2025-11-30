@@ -1,0 +1,88 @@
+.ProductPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20px;
+    background-color: #f9f9f9;
+}
+
+.ProductPage .goBackBtn {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    background-color: #f9f9f9;
+    color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+}
+
+.ProductPage .product {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.ProductPage .product img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.ProductPage .product .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.ProductPage .product .content .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ProductPage .product .content .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.ProductPage .product .content .price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ProductPage .product .content .addToCart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}

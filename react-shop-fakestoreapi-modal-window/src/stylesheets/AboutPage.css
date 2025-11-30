@@ -1,0 +1,13 @@
+.AboutPage {
+    margin: 100px auto 60px;
+    padding: 10px 60px;
+}
+
+.AboutPage h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.AboutPage p {
+    text-align: justify;
+}
