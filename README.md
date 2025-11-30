@@ -6,7 +6,7 @@
 - **react-crud** — _Live Demo unavailable_
 - **react-music-playere** — _Live Demo unavailable_
 - **react-pool** — [Live Demo](https://react-pool.vercel.app/)
-- **react-searchParams** — [Live Demo](about:blank)
+- **react-searchParams** — [Live Demo](https://react-search-params.vercel.app/)
 - **react-shop-fakestoreapi-modal-window** — [Live Demo](https://shop-fakestoreapi-modal-window.vercel.app/)
 - **react-shop-fakestoreapi-use-context** — [Live Demo](https://react-shop-fakestoreapi-use-context.vercel.app/)
 - **react-shop-theMealDb** — [Live Demo](https://shop-the-meal-db.vercel.app/)
